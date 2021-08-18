@@ -1,6 +1,6 @@
 # Frontend Mentor - Easybank landing page solution
 
-This is a solution to the [Easybank landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Easybank landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/easybank-landing-page-WaUhkoDN). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [CLICK HERE🚀](hhttps://github.com/ubed90/easy-bank-FE-mentor)
-- Live Site URL: [CLICK HERE🚀](https://your-live-site-url.com)
+- Solution URL: [CLICK HERE🚀](https://github.com/ubed90/easy-bank-FE-mentor)
+- Live Site URL: [CLICK HERE🚀](https://ubed90.github.io/easy-bank-FE-mentor/)
 
 ## My process
 
@@ -38,4 +38,3 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-
