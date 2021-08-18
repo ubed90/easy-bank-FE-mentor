@@ -1,0 +1,87 @@
+//*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* The 1300px Mark Break Point *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+@mixin media-desktop {
+    @media screen and (max-width: break-point(break-point-desktop)) {
+        @content;
+    }
+}
+
+//*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* The 1000px Mark Break Point *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+@mixin media-hero {
+    @media screen and (max-width: break-point(break-point-hero)) {
+        @content;
+    }
+}
+
+//*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* The 800px Mark Break Point *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+@mixin media-tablet {
+    @media screen and (max-width: break-point(break-point-tablet)) {
+        @content;
+    }
+}
+
+//*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* The 600px Mark Break Point *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+@mixin media-medium {
+    @media screen and (max-width: break-point(break-point-medium)) {
+        @content;
+    }
+}
+
+//*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-* The 400px Mark Break Point *-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+@mixin media-small {
+    @media screen and (max-width: break-point(break-point-small)) {
+        @content;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+@import 'reset';
+@import 'variables';
+@import 'utilities';
+@import 'header';
+@import 'showcase';
+@import 'about';
+@import 'articles';
+@import 'footer';
+
+
+// Section Padding
+%sec-padding {
+    padding: 10rem calc(2rem + 2vw);
+}
+
+%heading-color {
+    color: rgba($color: #000000, $alpha: 0.8);
+}
+
+// Section Padding
+%sec-heading {
+    font-size: font-size(font-size-medium);
+    font-weight: font-weight(font-weight-regular);
+    letter-spacing: 0.2rem;
+    color: var(--color-fgb);
+}
+
+// Section Para
+%sec-para {
+    font-weight: font-weight(font-weight-bold);
+    color: var(--color-gb);
+}
+
+// Styles for Section headings (h1)
+%sec-h3 {
+    font-size: font-size(font-size-regular);
+    font-weight: font-weight(font-weight-medium);
+    letter-spacing: 0.2rem;
+    color: var(--color-fbg);
+}
+
+// Styles for Section headings (h4)
+%sec-h4 {
+    font-weight: font-weight(font-weight-regular);
+    font-size: font-size(font-size-small);
+    color: var(--color-fbg);
+}
